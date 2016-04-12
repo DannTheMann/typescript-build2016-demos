@@ -1,6 +1,6 @@
 #Demos from //build 2016
 
-The following 3 projects are the working demos that Anders showed during his talk.
+The following 3 projects are the working demos that Anders showed during his [//build talk](https://channel9.msdn.com/Events/Build/2016/B881).
 They include all dependencies and are precompiled, so to get started all you need to do is download these folders and serve the apps.
 
 An easy way to serve these are using the npm package `http-server`.
