@@ -6,7 +6,7 @@ They include all dependencies and are precompiled, so to get started all you nee
 An easy way to serve these are using the npm package `http-server`.
 You can install `http-server` with:
 ```
-> npm install -g http-server`
+> npm install -g http-server
 ```
 Upon running `http-server` from the root of a webapp folder, you will see something like:
 ```
