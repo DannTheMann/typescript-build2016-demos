@@ -1,4 +1,4 @@
-#Demos from //build 2016
+# Demos from //build 2016
 
 The following 3 projects are the working demos that Anders showed during his [//build talk](https://channel9.msdn.com/Events/Build/2016/B881).
 They include all dependencies and are precompiled, so to get started all you need to do is download these folders and serve the apps.
@@ -16,21 +16,21 @@ Available on:
   http://127.0.0.1:<PORT_NUMBER>     // <-- Navigate to this url to run!
 ```
 
-##ng-reddit
+## ng-reddit
 This is a simple reddit client using Angular 2 that shows that display links to `http://reddit.com/r/aww`
 
 Run by running `http-server` as mentioned above.
 
 Build by running `tsc` from the project root. (Must have TypeScript installed globally)
 
-##react-reddit
+## react-reddit
 This is a simple reddit client using React that shows links and pictures to `http://reddit.com/r/aww`
 
 Serve by running `http-server` as mentioned above.
 
 Build by running `webpack` from the project root. (Must have Webpack installed globally)
 
-##node-reddit
+## node-reddit
 This a simple node/express server that will serve the react-reddit project in the neighboring folder.
 
 Run with:
@@ -38,9 +38,9 @@ Run with:
   > node built\server.js
 ```
 
-Build by running`tsc` from the project root. (must have TypeScript installed globally)
+Build by running `tsc` from the project root. (must have TypeScript installed globally)
 
-##controlFlow-nonNull
+## controlFlow-nonNull
 This is a simple demo of the new control flow analysis and non-nullable types.
 Note that is requires a build of TypeScript from the `controlFlowTypes` branch.
 A pre-built version of this branch has been included in the `TypeScript-controlFlowTypes` folder.
